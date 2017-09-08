@@ -1,103 +1,177 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="com.jfrog.test.TestApp1" time="0.007" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.jfrog.test.TestApp1" time="0.005" errors="0" skipped="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
-    <property name="java.vm.version" value="25.121-b13"/>
-    <property name="user.country.format" value="IL"/>
-    <property name="gopherProxySet" value="false"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/mohammadt/IdeaProjects/outputtest"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=":"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.country" value="US"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="unknown"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/mohammadt/IdeaProjects/outputtest"/>
-    <property name="java.runtime.version" value="1.8.0_121-b13"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="rvm_version" value="1.29.1 (latest)"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre"/>
+    <property name="LOGNAME" value="mohammadt"/>
+    <property name="rvm_bin_path" value="/Users/mohammadt/.rvm/bin"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PWD" value="/Users/mohammadt/Downloads/apache-tomcat-8.5.12"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/jenkins/"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="TERM_PROGRAM_VERSION" value="3.0.14"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
-    <property name="os.arch" value="x86_64"/>
+    <property name="GEM_PATH" value="/Users/mohammadt/.rvm/gems/ruby-2.1.10:/Users/mohammadt/.rvm/gems/ruby-2.1.10@global"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="rvm_docs_type" value=""/>
+    <property name="JOB_NAME" value="mvn-test"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="RELEASE_SCM_TAG" value="output-test-1.0"/>
+    <property name="user.name" value="mohammadt"/>
+    <property name="rvm_path" value="/Users/mohammadt/.rvm"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="LC_CTYPE" value="UTF-8"/>
+    <property name="RUBY_VERSION" value="ruby-2.1.10"/>
+    <property name="JAVA_MAIN_CLASS_85417" value="org.apache.catalina.startup.Bootstrap"/>
+    <property name="rvm_proxy" value=""/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/jenkins/job/mvn-test/99/display/redirect?page=changes"/>
+    <property name="rvm_ruby_make" value=""/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.timezone" value="Asia/Jerusalem"/>
+    <property name="path.separator" value=":"/>
+    <property name="BUILD_TAG" value="jenkins-mvn-test-99"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="_system_type" value="Darwin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="PATH" value="/Users/mohammadt/.rvm/gems/ruby-2.1.10/bin:/Users/mohammadt/.rvm/gems/ruby-2.1.10@global/bin:/Users/mohammadt/.rvm/rubies/ruby-2.1.10/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/mohammadt/.rvm/bin"/>
+    <property name="rvm_prefix" value="/Users/mohammadt"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven33Main /Users/mohammadt/Downloads/apache-tomcat-8.5.12/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven-test /Users/mohammadt/Downloads/apache-tomcat-8.5.12/webapps/jenkins/WEB-INF/lib/remoting-3.4.1.jar /Users/mohammadt/Downloads/apache-tomcat-8.5.12/jenkins_home/plugins/maven-plugin/WEB-INF/lib/maven33-interceptor-1.8.1.jar /Users/mohammadt/Downloads/apache-tomcat-8.5.12/jenkins_home/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.8.1.jar 58269"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/jenkins/"/>
+    <property name="ZSH" value="/Users/mohammadt/.oh-my-zsh"/>
+    <property name="JENKINS_SERVER_COOKIE" value="d6d8a6524812ee8f"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="GIT_COMMIT" value="aa504ad67ffa45cfae85d7fa9b1a5f5e73154d20"/>
     <property name="java.io.tmpdir" value="/var/folders/73/2h3z6nv12_xc394s4717f684wc_0gw/T/"/>
+    <property name="rvm_quiet_flag" value=""/>
+    <property name="user.language" value="en"/>
     <property name="line.separator" value="
 "/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.3.9/libexec/bin/m2.conf"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/mohammadt/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="maven.test.failure.ignore" value="true"/>
-    <property name="os.version" value="10.12.2"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="user.home" value="/Users/mohammadt"/>
-    <property name="user.timezone" value="Asia/Jerusalem"/>
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="mohammadt"/>
-    <property name="java.class.path" value="/usr/local/Cellar/maven/3.3.9/libexec/boot/plexus-classworlds-2.5.2.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dmaven.test.failure.ignore=true"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="BUILD_URL" value="http://localhost:8080/jenkins/job/mvn-test/99/"/>
+    <property name="SHLVL" value="2"/>
+    <property name="M2_HOME" value="/Users/mohammadt/Downloads/apache-tomcat-8.5.12/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven-test"/>
+    <property name="_system_version" value="10.12"/>
+    <property name="USER" value="mohammadt"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_121"/>
-    <property name="java.ext.dirs" value="/Users/mohammadt/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
-    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.9/libexec"/>
-    <property name="file.separator" value="/"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#99"/>
+    <property name="rvm_script_name" value=""/>
+    <property name="_system_name" value="OSX"/>
+    <property name="ITERM_PROFILE" value="Default"/>
+    <property name="LESS" value="-R"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="HUDSON_SERVER_COOKIE" value="d6d8a6524812ee8f"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="LSCOLORS" value="Gxfxcxdxbxegedabagacad"/>
+    <property name="MAVEN_HOME" value="/Users/mohammadt/Downloads/apache-tomcat-8.5.12/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven-test"/>
+    <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.gZ8dNFaLXe/Render"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="maven3.interceptor.common" value="/Users/mohammadt/Downloads/apache-tomcat-8.5.12/jenkins_home/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.8.1.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="rvm_silent_flag" value=""/>
+    <property name="CATALINA_OPTS" value="-DJENKINS_HOME=/Users/mohammadt/Downloads/apache-tomcat-8.5.12/jenkins_home/ -Xmx512m"/>
+    <property name="user.country.format" value="IL"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="TMPDIR" value="/var/folders/73/2h3z6nv12_xc394s4717f684wc_0gw/T/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="RELEASE_SCM_BRANCH" value="REL-BRANCH-output-test-1.0"/>
+    <property name="rvm_gemstone_package_file" value=""/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="99"/>
+    <property name="maven3.interceptor" value="/Users/mohammadt/Downloads/apache-tomcat-8.5.12/jenkins_home/plugins/maven-plugin/WEB-INF/lib/maven33-interceptor-1.8.1.jar"/>
+    <property name="java.library.path" value="/Users/mohammadt/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="rvm_ruby_file" value=""/>
+    <property name="POM_GROUPID" value="com.jfrog.test"/>
+    <property name="POM_ARTIFACTID" value="output-test"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="JOB_URL" value="http://localhost:8080/jenkins/job/mvn-test/"/>
+    <property name="PAGER" value="less"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="COLORFGBG" value="12;8"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="aa504ad67ffa45cfae85d7fa9b1a5f5e73154d20"/>
+    <property name="rvm_ruby_make_install" value=""/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="buildInfoConfig.propertiesFile" value="/Users/mohammadt/Downloads/apache-tomcat-8.5.12/temp/buildInfo2277284929134437695.properties"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/jenkins/job/mvn-test/99/display/redirect"/>
+    <property name="TERM_SESSION_ID" value="w0t2p0:2D376104-BC63-45D1-BAE6-778319F09DB0"/>
+    <property name="SECURITYSESSIONID" value="186a7"/>
+    <property name="JENKINS_HOME" value="/Users/mohammadt/Downloads/apache-tomcat-8.5.12/jenkins_home"/>
+    <property name="BUILD_ID" value="99"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="rvm_ruby_mode" value=""/>
+    <property name="HUDSON_HOME" value="/Users/mohammadt/Downloads/apache-tomcat-8.5.12/jenkins_home"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="aa504ad67ffa45cfae85d7fa9b1a5f5e73154d20"/>
+    <property name="PATH+MAVEN" value="/Users/mohammadt/Downloads/apache-tomcat-8.5.12/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven-test/bin"/>
+    <property name="rvm_niceness" value=""/>
+    <property name="RT_RELEASE_STAGING_SCM_BRANCH" value="REL-BRANCH-output-test-1.0"/>
+    <property name="TERM_PROGRAM" value="iTerm.app"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home"/>
+    <property name="COMMAND_MODE" value="unix2003"/>
+    <property name="rvm_hook" value=""/>
+    <property name="SHELL" value="/bin/zsh"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
     <property name="sun.cpu.isalist" value=""/>
+    <property name="_system_arch" value="x86_64"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/jenkins/job/mvn-test/display/redirect"/>
+    <property name="java.ext.dirs" value="/Users/mohammadt/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="os.version" value="10.12.2"/>
+    <property name="user.home" value="/Users/mohammadt"/>
+    <property name="RT_RELEASE_STAGING_VERSION" value="1.0"/>
+    <property name="_" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin/java"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="IRBRC" value="/Users/mohammadt/.rvm/rubies/ruby-2.1.10/.irbrc"/>
+    <property name="user.dir" value="/Users/mohammadt/Downloads/apache-tomcat-8.5.12/jenkins_home/workspace/mvn-test"/>
+    <property name="rvm_sdk" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="GEM_HOME" value="/Users/mohammadt/.rvm/gems/ruby-2.1.10"/>
+    <property name="ITERM_SESSION_ID" value="w0t2p0:2D376104-BC63-45D1-BAE6-778319F09DB0"/>
+    <property name="rvm_wrapper_name" value=""/>
+    <property name="rvm_bin_flag" value=""/>
+    <property name="MY_RUBY_HOME" value="/Users/mohammadt/.rvm/rubies/ruby-2.1.10"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.class.path" value="/Users/mohammadt/Downloads/apache-tomcat-8.5.12/jenkins_home/plugins/maven-plugin/WEB-INF/lib/maven33-agent-1.8.1.jar:/Users/mohammadt/Downloads/apache-tomcat-8.5.12/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven-test/boot/plexus-classworlds-2.5.2.jar:/Users/mohammadt/Downloads/apache-tomcat-8.5.12/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven-test/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="RT_RELEASE_STAGING_SCM_TAG" value="output-test-1.0"/>
+    <property name="rvm_alias_expanded" value=""/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="WORKSPACE" value="/Users/mohammadt/Downloads/apache-tomcat-8.5.12/jenkins_home/workspace/mvn-test"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="extractor.used" value="true"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x38C501FC:0x0:0x0"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes"/>
+    <property name="RT_RELEASE_STAGING_NEXT_VERSION" value="1.1-SNAPSHOT"/>
+    <property name="user.country" value="US"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="/Users/mohammadt/Downloads/apache-tomcat-8.5.12/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven-test"/>
+    <property name="rvm_use_flag" value=""/>
+    <property name="JOB_BASE_NAME" value="mvn-test"/>
+    <property name="rvm_nightly_flag" value=""/>
+    <property name="HOME" value="/Users/mohammadt"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="rvm_only_path_flag" value=""/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.J7XaoMIDvO/Listeners"/>
+    <property name="POM_DISPLAYNAME" value="output-test"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="rvm_gemstone_url" value=""/>
+    <property name="GIT_URL" value="https://github.com/mohammadtibi/Xray-netty-test.git"/>
+    <property name="rvm_ruby_bits" value=""/>
   </properties>
-  <testcase classname="com.jfrog.test.TestApp1" name="testPrintHelloWorld" time="0.007">
-    <failure message="expected:&lt;Hello Wo[]rld&gt; but was:&lt;Hello Wo[34343]rld&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;Hello Wo[]rld&gt; but was:&lt;Hello Wo[34343]rld&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at com.jfrog.test.TestApp1.testPrintHelloWorld(TestApp1.java:12)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</failure>
-  </testcase>
+  <testcase classname="com.jfrog.test.TestApp1" name="testPrintHelloWorld" time="0.005"/>
 </testsuite>
